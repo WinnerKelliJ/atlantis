@@ -5,20 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Atlantis Paradise Island — Kelli Johnson</title>
   <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #FAF6EE; color: #2A2A2E; margin: 0; padding: 60px 20px; text-align: center; }
-    h1 { font-family: 'Yeseva One', serif; font-size: 36px; font-weight: 400; margin: 0 0 12px; }
-    p { color: #5A4A66; line-height: 1.6; }
-    .credit { margin-top: 40px; font-size: 13px; color: #7C5A8C; }
-    .credit .prefix { font-size: 9px; text-transform: uppercase; letter-spacing: 0.12em; color: #9A8AA8; font-weight: 600; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Atlantis Paradise Island</h1>
-  <p>Coming soon — your family adventure guide is being built.</p>
-  <div class="credit">
-    Kelli Johnson · Family Adventure Advisor<br>
-    <span class="prefix">Independent Advisor with</span> travelmation
+  <div class="slogan-banner">
+    ✦ &nbsp; Curating your family's next great adventure &nbsp; ✦
   </div>
+
+  <header class="site-header">
+    <div class="identity">
+      <div class="kelli-name">Kelli Johnson</div>
+      <div class="kelli-title">Family Adventure Advisor</div>
+    </div>
+    <div class="co-credit">
+      <div class="co-credit-prefix">Independent Advisor with</div>
+      <div class="co-credit-name">travelmation</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="tagline-pill">your friend in the travel business.</div>
+    <h1 class="page-title">Everything you need to know about<br><span class="page-title-accent">Atlantis Paradise Island</span></h1>
+    <p class="hero-subtitle">A family-tested guide to towers, dining, Aquaventure, dolphins, and everything in between.</p>
+    <div class="personalized-greeting" id="personalized-greeting" hidden></div>
+  </section>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab tab-active" data-tab="plan">Plan</button>
+    <button class="tab" data-tab="stay">Stay</button>
+    <button class="tab" data-tab="play">Play</button>
+    <button class="tab" data-tab="eat">Eat</button>
+    <button class="tab" data-tab="tools">Tools</button>
+  </nav>
+
+  <main class="content" id="content">
+    <!-- panels injected in Phase 5 -->
+  </main>
+
+  <footer class="site-footer">
+    <div>Kelli Johnson · Family Adventure Advisor · Independent Advisor with travelmation</div>
+    <div class="footer-meta">Last updated <span id="last-updated">May 2026</span></div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
