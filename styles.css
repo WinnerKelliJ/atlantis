@@ -1,0 +1,21 @@
+:root {
+  --color-pink: #FFC8D6;
+  --color-lavender: #C9B6F5;
+  --color-cream: #FAF6EE;
+  --color-ink: #2A2A2E;
+  --color-bahamas: #2BAED9;
+  --color-text-body: #3D2E4A;
+  --color-text-muted: #7C5A8C;
+  --font-display: 'Yeseva One', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  line-height: 1.5;
+}
