@@ -151,9 +151,30 @@ body {
   font-weight: 700;
 }
 
-/* ─── Content area ──────────────────────────────────────── */
+/* ─── Content area + panels ─────────────────────────────── */
 
 .content { padding: 36px 28px 48px; min-height: 400px; }
+
+.panel {
+  animation: fadeIn 200ms ease-out;
+}
+
+.panel-title {
+  font-family: var(--font-display);
+  font-size: 32px;
+  margin: 0 0 18px;
+  font-weight: 400;
+}
+
+.panel-placeholder {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
 /* ─── Footer ────────────────────────────────────────────── */
 
