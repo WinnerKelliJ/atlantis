@@ -171,6 +171,50 @@ body {
   font-style: italic;
 }
 
+.panel-intro {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-body);
+  max-width: 680px;
+  margin: 0 0 28px;
+}
+
+/* ─── Sub-card grid (Plan tab + reused later) ───────────── */
+
+.sub-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.sub-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 3px 12px rgba(60, 30, 80, 0.05);
+  border-left: 4px solid;
+}
+
+.sub-card[data-accent="pink"]     { border-left-color: var(--color-pink); }
+.sub-card[data-accent="lavender"] { border-left-color: var(--color-lavender); }
+.sub-card[data-accent="bahamas"]  { border-left-color: var(--color-bahamas); }
+
+.sub-card h3 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.sub-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-body);
+  margin: 0;
+}
+
+.sub-card p strong { color: var(--color-ink); }
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
