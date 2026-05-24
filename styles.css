@@ -215,6 +215,86 @@ body {
 
 .sub-card p strong { color: var(--color-ink); }
 
+/* ─── Tower cards (Stay tab) ────────────────────────────── */
+
+.tower-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.tower-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 3px 12px rgba(60, 30, 80, 0.05);
+}
+
+.tower-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #F0E6D8;
+}
+
+.tower-card-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.tower-card-tier {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  background: var(--color-cream);
+  padding: 4px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.tower-card-vibe {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--color-text-body);
+  margin: 0 0 14px;
+}
+
+.tower-card-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.tower-card-row {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.tower-card-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  min-width: 92px;
+  flex-shrink: 0;
+}
+
+.tower-card-value {
+  color: var(--color-text-body);
+  line-height: 1.5;
+}
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }

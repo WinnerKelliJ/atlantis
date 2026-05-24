@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "id": "cove",
+    "name": "The Cove",
+    "tier": "Upscale Luxury",
+    "rooms": null,
+    "vibe": "Upscale, adult-leaning wing. Built around 'luxury, sensuality, and white-glove Bahamian service.' Has its own pool and a private stretch of Cove Beach.",
+    "best_for": "Couples, multigenerational families wanting a quieter, higher-end stay, or anyone who wants full resort access without the central bustle.",
+    "closest_to": ["Cove Beach", "Cove Pool", "KO SÀ WĂN by Ian Kittichai", "Mandara Spa"],
+    "resort_fee_per_night_usd": 82.50,
+    "notes": null
+  },
+  {
+    "id": "royal",
+    "name": "The Royal",
+    "tier": "Iconic",
+    "rooms": null,
+    "vibe": "The iconic central tower — the silhouette in every Atlantis photograph. Most of the resort's signature amenities anchor here.",
+    "best_for": "First-time visitors who want to be in the middle of everything. Families. Thrill-seekers — closest to Aquaventure's Mayan Temple entrance.",
+    "closest_to": ["Aquaventure", "Marine Habitat / The Dig", "Central casino & retail", "Claudio's Bahamas (opening Spring 2026)"],
+    "resort_fee_per_night_usd": 77.00,
+    "notes": null
+  },
+  {
+    "id": "coral",
+    "name": "The Coral",
+    "tier": "Modern Family",
+    "rooms": null,
+    "vibe": "Recently redesigned. Modern, fresh, lower-price entry point into the resort.",
+    "best_for": "First-time families and value-conscious guests who still want full resort access.",
+    "closest_to": ["Coral Pool", "Coral Cabanas", "Casual dining"],
+    "resort_fee_per_night_usd": 77.00,
+    "notes": null
+  },
+  {
+    "id": "reef",
+    "name": "The Reef",
+    "tier": "Luxury Residences",
+    "rooms": null,
+    "vibe": "Residential-style luxury suites with kitchens — feels like a condo. Studios through specialty suites.",
+    "best_for": "Longer stays. Multigenerational families needing space. Families who want to cook some meals.",
+    "closest_to": ["Cove Beach (adjacent to The Cove)", "Quieter end of the resort"],
+    "resort_fee_per_night_usd": 82.50,
+    "notes": null
+  }
+]
